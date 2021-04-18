@@ -52,7 +52,7 @@ else
 	echo "[INFO][$(date '+%Y-%m-%d %H:%M:%S')][Using ${DB_NAME} for Protheus database name]"
 fi
 
-sed -i 's/{{PROTHEUS_DBPASSWORD}}/'"${DB_PASS}"'/' /docker-entrypoint-initdb.d/init.sql
+sed -i 's/{{PROTHEUS_DBNAME}}/'"${DB_NAME}"'/' /docker-entrypoint-initdb.d/init.sql
 
 # Inicia o banco de dados
 exec /docker-entrypoint.sh postgres
