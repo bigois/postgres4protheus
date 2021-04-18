@@ -5,6 +5,7 @@ ARG POSTGRES_VERSION=latest
 FROM postgres:${POSTGRES_VERSION}
 LABEL maintainer="Guilherme Bigois"
 
+# Instala o dumb-init para alterar o fluxo de inicialização
 RUN apt-get update
 RUN apt install dumb-init
 
@@ -13,6 +14,7 @@ COPY init.sh /
 COPY init.sql /docker-entrypoint-initdb.d/
 
 # Inicia o script init.sh antes do banco
+RUN chmod 777 /init.sh
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 CMD ["/init.sh"]
 
