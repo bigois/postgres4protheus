@@ -12,7 +12,7 @@ RUN apt install dumb-init
 COPY init.sh /
 COPY init.sql /docker-entrypoint-initdb.d/
 
-# Inicia o script my-init.sh antes do 
+# Inicia o script init.sh antes do banco
 ENTRYPOINT ["/usr/bin/dumb-init", "--"]
 CMD ["/init.sh"]
 
