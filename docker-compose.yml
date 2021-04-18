@@ -6,18 +6,15 @@ services:
 
     # Base de dados (PostgreSQL)
     postgres:
-        build:
-            context: .
-            dockerfile: Dockerfile
-            args:
-                POSTGRES_VERSION: 13.2
-                PROTHEUS_DBUSER: qa
-                PROTHEUS_DBPASSWORD: eg6i8e6z
-                PROTHEUS_DBNAME: homolog
         image: guilhermebigois/postgres4protheus
         container_name: postgres
         restart: always
         environment:
             POSTGRES_PASSWORD: postgres
+            PROTHEUS_DBUSER: qa
+            PROTHEUS_DBPASSWORD: eg6i8e6z
+            PROTHEUS_DBNAME: homolog
         ports:
             - 5432:5432
+
+            
