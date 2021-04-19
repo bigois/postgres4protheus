@@ -52,7 +52,6 @@
 	<!-- Descrição -->
 	<p align="center">
 		<h4 align="center">Base de dados PostgreSQL em container Docker configurada conforme os requisitos para uso com o ERP TOTVS Protheus</h4>
-		<h5 align="center"><a href="https://tdn.totvs.com/display/public/PROT/PostgreSQL" target="_blank"><strong>Documentação TOTVS</strong></a></h5>
 	</p>
 	<p align="center">
 		<h5 align="center">
@@ -62,8 +61,6 @@
 		</h5>
 	</p>
 </p>
-
-<br/>
 
 <!-- Sumário -->
 <details open="open">
