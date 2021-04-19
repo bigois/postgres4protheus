@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Salto de linha com zero binário
+CRLF="       "
+
 # Mensagem de boas vindas
 echo "*-------------------------------------------------------*"
 echo "|       Welcome to PostgreSQL for TOTVS Protheus        |"
@@ -8,9 +11,11 @@ echo "| Created by: Guilherme Bigois                      �
 echo "| LinkedIn: https://www.linkedin.com/in/guilhermebigois |"
 echo "| GitHub: https://github.com/guilhermebigois            |"          
 echo "*-------------------------------------------------------*"
+echo "$CRLF"
 
 # Iniciando o processo de substitução das variáveis
 echo "[INFO][$(date '+%Y-%m-%d %H:%M:%S')][Setting Protheus database values...]"
+echo "$CRLF"
 
 # Verifica se a variável de ambiente PROTHEUS_DBUSER foi configurada
 # Caso sim, utiliza para alterar o arquivo init.sql em /docker-entrypoint-initdb.d/
@@ -24,6 +29,7 @@ else
     echo "[INFO][$(date '+%Y-%m-%d %H:%M:%S')][Using ${DB_USER} for Protheus database user]"
 fi
 
+echo "$CRLF"
 sed -i 's/{{PROTHEUS_DBUSER}}/'"${DB_USER}"'/' /docker-entrypoint-initdb.d/init.sql
 
 # Verifica se a variável de ambiente PROTHEUS_DBPASSWORD foi configurada
@@ -38,6 +44,7 @@ else
 	echo "[INFO][$(date '+%Y-%m-%d %H:%M:%S')][Using ${DB_PASS} for Protheus database user password]"
 fi
 
+echo "$CRLF"
 sed -i 's/{{PROTHEUS_DBPASSWORD}}/'"${DB_PASS}"'/' /docker-entrypoint-initdb.d/init.sql
 
 # Verifica se a variável de ambiente PROTHEUS_DBNAME foi configurada
@@ -52,6 +59,7 @@ else
 	echo "[INFO][$(date '+%Y-%m-%d %H:%M:%S')][Using ${DB_NAME} for Protheus database name]"
 fi
 
+echo "$CRLF"
 sed -i 's/{{PROTHEUS_DBNAME}}/'"${DB_NAME}"'/' /docker-entrypoint-initdb.d/init.sql
 
 # Inicia o banco de dados
