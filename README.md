@@ -52,17 +52,18 @@
 	<!-- Descrição -->
 	<p align="center">
 		<h4 align="center">Base de dados PostgreSQL em container Docker configurada conforme os requisitos para uso com o ERP TOTVS Protheus</h4>
-		<h4 align="center"><a href="https://tdn.totvs.com/display/public/PROT/PostgreSQL" target="_blank"><strong>Documentação TOTVS</strong></a></h4>
-		<br/>
-		<h4 align="center">
+		<h5 align="center"><a href="https://tdn.totvs.com/display/public/PROT/PostgreSQL" target="_blank"><strong>Documentação TOTVS</strong></a></h5>
+	</p>
+	<p align="center">
+		<h5 align="center">
 			<a href="https://hub.docker.com/r/guilhermebigois/postgres4protheus" target="_blank">Docker Hub do Projeto</a>
 			·
 			<a href="https://github.com/guilhermebigois/postgres4protheus/issues" target="_blank">Ajustes e Melhorias</a>
-		</h4>
+		</h5>
 	</p>
 </p>
 
-<br/><br/>
+<br/>
 
 <!-- Sumário -->
 <details open="open">
