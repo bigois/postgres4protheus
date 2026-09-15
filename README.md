@@ -1,113 +1,105 @@
-<!-- Escudos do repositório -->
-<h3 align="center">GitHub</h3>
 <p align="center">
-	<!-- Escudo: Contribuintes -->
-	<a href="https://linkedin.com/in/guilhermebigois" target="_blank">
-		<img src="https://img.shields.io/github/contributors/guilhermebigois/postgres4protheus.svg?style=for-the-badge" alt="Escudo Contribuintes">
-	</a>
-	<!-- Escudo: Forks -->
-	<a href="https://github.com/guilhermebigois/postgres4protheus/network/members" target="_blank">
-		<img src="https://img.shields.io/github/forks/guilhermebigois/postgres4protheus.svg?style=for-the-badge" alt="Escudo Forks">
-	</a>
-	<!-- Escudo: Favoritados -->
-	<a href="https://github.com/guilhermebigois/postgres4protheus/stargazers" target="_blank">
-		<img src="https://img.shields.io/github/stars/guilhermebigois/postgres4protheus.svg?style=for-the-badge" alt="Escudo Favoritados">
-	</a>
-	<!-- Escudo: Issues -->
-	<a href="https://github.com/guilhermebigois/postgres4protheus/issues" target="_blank">
-		<img src="https://img.shields.io/github/issues/guilhermebigois/postgres4protheus.svg?style=for-the-badge" alt="Escudo Docker Hub">
-	</a>
-	<!-- Escudo: Licença -->
-	<a href="https://github.com/guilhermebigois/postgres4protheus/blob/master/LICENSE.txt" target="_blank">
-		<img src="https://img.shields.io/github/license/guilhermebigois/postgres4protheus.svg?style=for-the-badge" alt="Escudo Licença">
-	</a>
+  <a href="https://github.com/bigois/postgres4protheus">
+    <img src="https://raw.githubusercontent.com/bigois/postgres4protheus/main/images/logo.png" alt="PostgreSQL for TOTVS Protheus logo" width="25%" height="25%">
+  </a>
 </p>
 
-<!-- Escudos de redes sociais -->
-<h3 align="center">Social</h3>
+<h1 align="center">PostgreSQL for TOTVS Protheus</h1>
+
 <p align="center">
-	<!-- Escudo: LinkedIn -->
-	<a href="https://linkedin.com/in/guilhermebigois" target="_blank">
-		<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Escudo LinkedIn">
-	</a>
-	<!-- Escudo: WhatsApp -->
-	<a href="https://api.whatsapp.com/send?phone=5511954226844" target="_blank">
-		<img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Escudo WhatsApp">
-	</a>
-	<!-- Escudo: Docker Hub -->
-	<a href="https://hub.docker.com/u/guilhermebigois" target="_blank">
-		<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Escudo Docker Hub">
-	</a>
+  A Dockerized PostgreSQL database configured for use with the TOTVS Protheus ERP.
 </p>
 
-<!-- Logotipo do projeto e descrição -->
 <p align="center">
-	<br/>
-	<!-- Logotipo -->
-	<a href="https://github.com/guilhermebigois/postgres4protheus" target="_blank">
-		<img src="https://raw.githubusercontent.com/guilhermebigois/postgres4protheus/main/images/logo.png" alt="Logo" width="25%" height="25%">
-	</a>
-	<!-- Título -->
-	<h2 align="center">PostgreSQL para TOTVS Protheus</h3>
-	<!-- Descrição -->
-	<p align="center">
-		<h4 align="center">Base de dados PostgreSQL em container Docker configurada conforme os requisitos para uso com o ERP TOTVS Protheus</h4>
-		<h5 align="center">
-			<a href="https://hub.docker.com/r/guilhermebigois/postgres4protheus" target="_blank">Docker Hub do Projeto</a>
-			·
-			<a href="https://github.com/guilhermebigois/postgres4protheus/issues" target="_blank">Ajustes e Melhorias</a>
-		</h5>
-	</p>
+  <a href="https://hub.docker.com/r/guilhermebigois/postgres4protheus">Docker Hub</a>
+  ·
+  <a href="https://github.com/bigois/postgres4protheus/issues">Issues and improvements</a>
 </p>
 
-<!-- Sumário -->
-<details open="open">
-	<!-- Título -->
-	<summary>
-		<h2 style="display: inline-block">Tabela de conteúdos</h2>
-	</summary>
-	<!-- Listagem de Tópicos-->
-	<ol>
-		</li>
-			<li><a href="#sobre">Sobre</a></li>
-			<ul>
-				<li><a href="#objetivo">Objetivo</a</li>
-			</ul>
-    	</li>
-		<li><a href="#pré-requisitos">Pré requisitos</a></li>
-	</ol>
-</details>
+<p align="center">
+  <a href="https://github.com/bigois/postgres4protheus/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/bigois/postgres4protheus.svg?style=for-the-badge" alt="Contributors">
+  </a>
+  <a href="https://github.com/bigois/postgres4protheus/network/members">
+    <img src="https://img.shields.io/github/forks/bigois/postgres4protheus.svg?style=for-the-badge" alt="Forks">
+  </a>
+  <a href="https://github.com/bigois/postgres4protheus/stargazers">
+    <img src="https://img.shields.io/github/stars/bigois/postgres4protheus.svg?style=for-the-badge" alt="Stars">
+  </a>
+  <a href="https://github.com/bigois/postgres4protheus/issues">
+    <img src="https://img.shields.io/github/issues/bigois/postgres4protheus.svg?style=for-the-badge" alt="Issues">
+  </a>
+  <a href="https://github.com/bigois/postgres4protheus/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/bigois/postgres4protheus.svg?style=for-the-badge" alt="MIT License">
+  </a>
+</p>
 
-<br/>
+## About
 
-<!-- Seção: Sobre -->
-## Sobre
-<img src="https://raw.githubusercontent.com/guilhermebigois/postgres4protheus/main/images/about.gif" alt="Programa em execução" width="80%" height="80%">
+<img src="https://raw.githubusercontent.com/bigois/postgres4protheus/main/images/about.gif" alt="PostgreSQL for TOTVS Protheus running" width="80%" height="80%">
 
-Esta imagem utiliza sempre a última versão do banco PostgreSQL disponível no [Docker Hub oficial](https://hub.docker.com/_/postgres).
+This image is built from the official [PostgreSQL Docker image](https://hub.docker.com/_/postgres) and follows the database settings required by TOTVS Protheus. The initialization scripts create a Protheus database with:
 
-Por meio de variáveis de ambiente é possível realizar a montagem de um banco seguindo as configurações de _encoding_, _collation_ e _character type_ dispostas na [documentação de bancos de dados homologados pela TOTVS](https://tdn.totvs.com/pages/viewpage.action?pageId=187533675).
+- `WIN1252` encoding
+- `C` collation
+- `C` character type
 
-<!-- Seção: Objetivo -->
-### Objetivo
-Ao meu ver, para todo iniciante em programação ADVPL (assim como eu também fui) as partes mais difíceis são:
-1. Ter acesso para baixar os arquivos de configuração
-2. Encontrar as documentações necessárias
-3. Realizar a montagem de ambiente de desenvolvimento
+These settings are based on the [TOTVS documentation for supported databases](https://tdn.totvs.com/pages/viewpage.action?pageId=187533675).
 
-Com isto em mente, resolvi criar um modo simples de prover um ambiente de desenvolvimento para aqueles que desejam aprender a linguagem ADVPL, entender os passos necessários para montar as camadas de um ambiente Protheus em Linux ou até mesmo como utilizar o ERP dentro de containers Docker.
+## Purpose
 
-<br/>
+Setting up a Protheus development environment can be difficult for developers who are starting with ADVPL or learning how the ERP runs on Linux and Docker. This project provides a reproducible PostgreSQL container so that the database layer can be started with fewer manual setup steps.
 
-<!-- Seçã: Pré requisitos -->
-## Pré requisitos
-Para utilizar esta imagem apenas é necessário ter o Docker instalado na sua máquina, contudo para instalar o Docker são necessários alguns [requisitos de sistema](https://docs.docker.com/docker-for-windows/install/).
+## Prerequisites
 
-Caso você não tenha o Docker instalado, dê uma olhada nos vídeos abaixo de acordo com o seu sistema operacional:
-* Windows 10 64-bit Pro, Enterprise ou Education: [Instalando Docker for Windows no Windows 10](https://www.youtube.com/watch?v=Hg4i7f5SdWI)
-* Windows 10 Home (e também os demais acima): [Configurando Windows 10 + WSL 2 + Docker](https://www.youtube.com/watch?v=oQ08ZaOAiGU)
-* Linux Ubuntu: [Instalando o Docker no Ubuntu](https://www.youtube.com/watch?v=gu3cD0jdqG0)
+- Docker with Docker Compose
+- The system requirements required by your Docker installation
+
+If Docker is not installed yet, refer to the [official Docker installation documentation](https://docs.docker.com/get-docker/).
+
+## Running locally
+
+Clone the repository and start the database:
+
+```bash
+git clone https://github.com/bigois/postgres4protheus.git
+cd postgres4protheus
+docker compose up -d
+```
+
+The container exposes PostgreSQL on port `5432`.
+
+To follow the startup logs:
+
+```bash
+docker compose logs -f postgres
+```
+
+To stop the container:
+
+```bash
+docker compose down
+```
+
+## Configuration
+
+The Compose file defines the PostgreSQL password and the values used to create the Protheus database. Review and replace these values before using the container outside a local study environment:
+
+| Variable | Purpose |
+| --- | --- |
+| `POSTGRES_PASSWORD` | Password for the PostgreSQL superuser. |
+| `PROTHEUS_DBUSER` | User created for the Protheus database. |
+| `PROTHEUS_DBPASSWORD` | Password for the Protheus database user. |
+| `PROTHEUS_DBNAME` | Name of the Protheus database. |
+
+The initialization script applies the Protheus values to `init.sql` before PostgreSQL starts for the first time.
+
+## Links
+
+- [Docker Hub image](https://hub.docker.com/r/guilhermebigois/postgres4protheus)
+- [TOTVS database documentation](https://tdn.totvs.com/pages/viewpage.action?pageId=187533675)
+- [Report an issue](https://github.com/bigois/postgres4protheus/issues)
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/bigois/postgres4protheus/blob/main/LICENSE).
+This project is licensed under the [MIT License](LICENSE).
