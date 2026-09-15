@@ -107,3 +107,7 @@ Caso você não tenha o Docker instalado, dê uma olhada nos vídeos abaixo de a
 * Windows 10 64-bit Pro, Enterprise ou Education: [Instalando Docker for Windows no Windows 10](https://www.youtube.com/watch?v=Hg4i7f5SdWI)
 * Windows 10 Home (e também os demais acima): [Configurando Windows 10 + WSL 2 + Docker](https://www.youtube.com/watch?v=oQ08ZaOAiGU)
 * Linux Ubuntu: [Instalando o Docker no Ubuntu](https://www.youtube.com/watch?v=gu3cD0jdqG0)
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/bigois/postgres4protheus/blob/main/LICENSE).
