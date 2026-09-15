@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/bigois/postgres4protheus">
-    <img src="https://raw.githubusercontent.com/bigois/postgres4protheus/main/images/logo.png" alt="PostgreSQL for TOTVS Protheus logo" width="25%" height="25%">
+    <img src="https://static.cdnlogo.com/logos/d/41/docker.svg" alt="Docker logo" width="25%" height="25%">
   </a>
 </p>
 
